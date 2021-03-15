@@ -1,6 +1,5 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:ext_storage/ext_storage.dart';
 
 void main() {
   const MethodChannel channel = MethodChannel('ext_storage');
@@ -15,6 +14,5 @@ void main() {
     channel.setMockMethodCallHandler(null);
   });
 
-  test('getExternalStorageDirectory', () async {
-  });
+  test('getExternalStorageDirectory', () async {});
 }
